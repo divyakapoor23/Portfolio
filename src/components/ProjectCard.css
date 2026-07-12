@@ -1,0 +1,36 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.project-card h3 {
+  color: var(--text-h);
+  font-size: 18px;
+}
+
+.project-card p {
+  color: var(--text);
+  font-size: 14px;
+}
+
+.tech-stack {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.project-card a {
+  margin-top: var(--space-sm);
+  color: var(--accent);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}

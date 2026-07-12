@@ -1,3 +1,4 @@
+import './Project.css'
 import ProjectCard from './ProjectCard'
 
 function Projects() {

@@ -1,4 +1,6 @@
 import photo from '../assets/Divya.jpeg'
+import './About.css'
+
 function About() {
   return (
     <section id="about">

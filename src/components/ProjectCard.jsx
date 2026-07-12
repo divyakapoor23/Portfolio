@@ -1,3 +1,4 @@
+import './ProjectCard.css'
 function ProjectCard({ title, description, tech, link }) {
   return (
     <article className="project-card">

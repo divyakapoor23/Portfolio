@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xl);
+  padding: var(--space-xl) var(--space-lg);
+  border-top: 1px solid var(--border);
+}
+
+.about h2 {
+  color: var(--text-h);
+}
+
+.about-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.bio {
+  color: var(--text);
+  font-size: 16px;
+  max-width: 600px;
+}
