@@ -4,7 +4,8 @@
   align-items: center;
   padding: var(--space-md) var(--space-lg);
   border-bottom: 1px solid var(--border);
-
+  position: relative;
+  z-index: 10;
 }
 
 .logo a {
@@ -14,6 +15,16 @@
   color: var(--text-h);
   text-decoration: none;
 }
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-h);
+}
+
 .nav-list {
   display: flex;
   gap: var(--space-lg);
@@ -28,4 +39,35 @@
 
 .nav-list a:hover {
   color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .menu-toggle {
+    display: block;
+    z-index: 30;
+    position: relative;
+  }
+
+  nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg);
+    z-index: 20;
+  }
+
+  nav.nav-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: var(--space-lg);
+    text-align: center;
+  }
 }

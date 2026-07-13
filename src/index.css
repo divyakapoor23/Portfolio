@@ -60,11 +60,19 @@
   }
 }
 
-body {
+/* body {
   font-family: var(--sans);
   color: var(--text);
   background-color: var(--bg);
   line-height: 1.6;
+} */
+
+body {
+  background-color: var(--bg);
+   background-image:
+    radial-gradient(circle at 15% 20%, var(--accent-bg) 0%, transparent 35%),
+    radial-gradient(circle at 85% 80%, var(--accent-bg) 0%, transparent 35%); 
+  background-attachment: fixed;
 }
 
 #root {

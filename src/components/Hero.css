@@ -6,10 +6,10 @@
   padding: var(--space-xl) var(--space-lg);
   gap: var(--space-md);
 }
-
 .hero h1 {
   font-size: 48px;
   color: var(--text-h);
+  margin: 0;
 }
 
 .tagline {
@@ -32,4 +32,14 @@
 
 .cta-button:hover {
   opacity: 0.85;
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .tagline {
+    font-size: 16px;
+  }
 }

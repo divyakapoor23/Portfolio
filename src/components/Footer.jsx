@@ -1,6 +1,7 @@
+import './Footer.css'
 function Footer() {
   return (
-    <footer>
+    <footer className='footer'>
       <p>&copy; {new Date().getFullYear()} Divya Kapoor. All rights reserved.</p>
     </footer>
   )
