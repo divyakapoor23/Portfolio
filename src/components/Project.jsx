@@ -23,7 +23,7 @@ function Projects() {
       <ProjectCard
         title="Yelp data pipeline"
         description="Data collection and processing pipeline for Yelp business data."
-        tech="Python"
+        tech="Python, pandas, numpy, Tensorflow, Keras, Streamlit"
         link="https://github.com/divyakapoor23/YelpDL"
       />
     </section>

@@ -8,6 +8,13 @@
   z-index: 10;
 }
 
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .logo a {
   font-family: var(--heading);
   font-size: 20px;

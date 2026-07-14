@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './Header.css'
-function Header() {
+
+function Header({ theme, toggleTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
@@ -8,6 +9,14 @@ function Header() {
       <div className="logo">
         <a href="#hero">Divya Kapoor</a>
       </div>
+
+      <button
+        className="theme-toggle"
+        onClick={toggleTheme}
+        aria-label="Toggle dark mode"
+      >
+        {theme === 'light' ? '🌙' : '☀️'}
+      </button>
 
       <button
         className="menu-toggle"

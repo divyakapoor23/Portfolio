@@ -1,4 +1,5 @@
 import photo from '../assets/Divya.jpeg'
+// import photo from '../assets/lakechelan.jpeg'
 import './About.css'
 
 function About() {
